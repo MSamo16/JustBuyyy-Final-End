@@ -18,7 +18,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - OnlineShop</title>
+    <title>@ViewData["Title"] - JustBuyyy</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -49,7 +49,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">OnlineShop</a>
+                <a class="navbar-brand"  href="https://localhost:44310/">Justbuyyy</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -69,13 +69,19 @@
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
                             </li>
+
+
                         }
-                        
+
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Cart">
                                 <i class="fas fa-shopping-cart"></i>
                                 (@count)
                             </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="Customer" asp-controller="Home" asp-action="Contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -90,12 +96,90 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2019 - OnlineShop - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
+    <br/>
+    <br/>
+        
+            <!--footer-->
+            <!--foooter-->
+            <section style="background-color: #e6e6e6; " class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 d-flex flex-column">
+                            <h2>JustBuyyy</h2><br>
+                            <h6>Tikri Building</h6>
+                            <h6>Gurgaon</h6>
+                            <h6>India</h6><br>
 
+
+                        </div>
+                        <div class="col-md-2">
+
+                            <h5>Useful Links</h5><br>
+                            <div class="list ">
+                                <h6>Home</h6>
+                                <h6>About us</h6>
+                                <h6>Services</h6>
+                                <h6>Terms of service</h6>
+                                <h6>Privacy policy</h6>
+
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-2 mt-2 mt-md-0">
+                            <h5>Our Services</h5><br>
+                            <div class="list ">
+                                <h6>Web Design</h6>
+                                <h6>Web Development</h6>
+                                <h6>Product Management</h6>
+                                <h6>Marketing</h6>
+                                <h6>Graphic Design</h6>
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-5 px-5 mt-3" id="news">
+                            <h5>Join Our Newsletter</h5>
+                            <h6 class="my-3">Register for Regular Updates</h6>
+                            <div class="input-group mt-5">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-md btn-info">Subscribe</button>
+
+                                </div>
+                                <input type="text" class="form-control">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--footer 2-->
+
+            <section style="background-color: whitesmoke" class=" py-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h6>© Copyright JustBuyyy. All Rights Reserved</h6>
+                            <h6 style="color: #428bca">Designed by INTADMDF012 POD 2</h6>
+
+                        </div>
+                        <div class="col-md-4"></div>
+                        <div class="col-md-4 text-center">
+                            <a href=""> <i class="fab fa-facebook-square fa-2x px-2"></i></a>
+                            <i class="fab fa-twitter-square fa-2x px-2"></i>
+                            <a href=""><i class="fab fa-instagram fa-2x px-2"></i></a>
+                            <i class="fab fa-linkedin fa-2x px-2"></i>
+                            <i class="fab fa-skype fa-2x  px-2"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+       
+  
     <environment include="Development">
         @*<script src="https://code.jquery.com/jquery-3.3.1.js"></script>*@
         <script src="~/lib/jquery/dist/jquery.js"></script>

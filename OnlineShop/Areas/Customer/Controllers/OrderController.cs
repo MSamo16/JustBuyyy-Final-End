@@ -48,6 +48,7 @@ namespace OnlineShop.Areas.Customer.Controllers
             _db.Orders.Add(anOrder);
             await _db.SaveChangesAsync();
             HttpContext.Session.Set("products", new List<Products>());
+            TempData["PlaceOrder"] = "Order Placed successfully!!!";
             return View();
         }
 
