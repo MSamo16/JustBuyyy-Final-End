@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7WVpSa5i0a81jo+m4CbCLO5JGXVv6RicIfPqK2Gz3nFFSRBdGho/uSKRHnxFHpQAYDPIx1tzoLqFPq8w4LwIug==",
+  "dgSpecHash": "jKZT/hklzEyaPimZubS05xgJ8CvWxoH6ZHCBeczPjPyqn0f51H35BWmM61iBwjEkxuplA5CulMtiJVOOwNfEog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Sameer\\Desktop\\git\\onlineshop\\OnlineShop\\JustBuyyy.csproj",
+  "projectFilePath": "C:\\Users\\Sameer\\Desktop\\project\\git\\JustBuyyy-FInal\\OnlineShop\\JustBuyyy.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Sameer\\.nuget\\packages\\alertifyjs\\1.11.2\\alertifyjs.1.11.2.nupkg.sha512",
     "C:\\Users\\Sameer\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",

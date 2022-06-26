@@ -13072,11 +13072,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sameer\\Desktop\\git\\onlineshop\\OnlineShop\\JustBuyyy.csproj",
+      "projectUniqueName": "C:\\Users\\Sameer\\Desktop\\project\\git\\JustBuyyy-FInal\\OnlineShop\\JustBuyyy.csproj",
       "projectName": "JustBuyyy",
-      "projectPath": "C:\\Users\\Sameer\\Desktop\\git\\onlineshop\\OnlineShop\\JustBuyyy.csproj",
+      "projectPath": "C:\\Users\\Sameer\\Desktop\\project\\git\\JustBuyyy-FInal\\OnlineShop\\JustBuyyy.csproj",
       "packagesPath": "C:\\Users\\Sameer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sameer\\Desktop\\git\\onlineshop\\OnlineShop\\obj\\",
+      "outputPath": "C:\\Users\\Sameer\\Desktop\\project\\git\\JustBuyyy-FInal\\OnlineShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
